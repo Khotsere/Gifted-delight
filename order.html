@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER NOW</title>
+    <link rel="stylesheet" href="hero.css">
+</head>
+<body class="order">
+    <section class="order-page">
+    <h1>PLACE YOUR ORDER</h1>
+    <p class="treat"><label for="treat"><strong>What would you like to order?</strong></label></p>
+    <select id="treat" name="treat">
+        <option value="" disabled selected>Select a treat</option>
+        <option value="cake">Cake</option>
+        <option value="cupcakes">Cupcakes</option>
+        <option value="doughnuts">Doughnuts</option>
+        <option value="small chops">Small chops</option>
+        <option value="cinnamon rolls">Cinnamon Rolls</option>
+    </select>
+    <p class="place"><label for="option"><strong>Choose an option</strong></label></p>
+    <select id="option">
+        <option value=""disabled selcted>Choose an option</option>
+    </select>
+    <p class="for">
+        <label for="message"><strong>Anything else you'd like us to know? (Optional)</strong></label>
+    </p>
+    <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your special request here..."></textarea>
+    <br><br>
+    <button class="click">ORDER</button>
+    </section>
+    <script src="order.js"></script>
+</body>
+</html>
