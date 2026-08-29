@@ -232,13 +232,6 @@ textarea{
     .she{
         font-size: 20px;
     }
-    .order-page{
-        padding-bottom: 1px;
-        padding-top: 1px;
-        width: 5px;
-        height: 10px;
-    }
-
 }
 /*for phones*/
 @media (max-width: 500px){
@@ -269,5 +262,15 @@ textarea{
     button{
         padding:10px 20px;
         font-size: 12px;
+    }
+}
+/*Order page mobile adjustment*/
+@media screen (max-width: 600px){
+    .order-page{
+        width: 90%;
+        height: auto;
+        margin: 40px auto 0;
+        padding: 30px 15px;
+        box-sizing: border-box;
     }
 }
