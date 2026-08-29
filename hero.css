@@ -267,7 +267,7 @@ textarea{
 /*Order page mobile adjustment*/
 @media screen (max-width: 600px){
     .order-page{
-        width: 90%;
+        width: 100px;
         height: auto;
         margin: 40px auto 0;
         padding: 30px 15px;
